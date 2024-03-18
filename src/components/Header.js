@@ -3,15 +3,11 @@ import { NavLink } from 'react-router-dom'
 
 
 const Header = (props) => {
-  
-            console.log("=====Header Type==",props.type);
-            
-
   return (
          
            <nav style={{display:'flex',justifyContent:'center',margin:'10px',padding:'10px',gap:'10px'}}>
 
-                     <NavLink to="/about">{props.counter1}</NavLink>  
+                     <NavLink to="/about">About</NavLink>  
 
                      <NavLink to="/contact">Contact</NavLink> 
 
